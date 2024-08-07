@@ -1,14 +1,12 @@
 
-# 🪚 Chainsaw
-
-
+<pre>
    ___ _           _                           
   / __\ |__   __ _(_)_ __  ___  __ ___      __ 
  / /  | '_ \ / _` | | '_ \/ __|/ _` \ \ /\ / / 
 / /___| | | | (_| | | | | \__ \ (_| |\ V  V /  
 \____/|_| |_|\__,_|_|_| |_|___/\__,_| \_/\_/   
 
-
+</pre>
 <p align="center">
   <strong>Slice through your HTML with precision!</strong>
 </p>
