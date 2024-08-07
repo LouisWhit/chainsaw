@@ -41,19 +41,25 @@ Chainsaw is a powerful command-line tool that allows you to make surgical change
 Run the following command in your terminal:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/yourusername/chainsaw/main/install_chainsaw.sh | bash
+curl -sSL https://raw.githubusercontent.com/LouisWhit/chainsaw/main/install_chainsaw.sh | bash
 ```
 ### Other platforms
 
 Ensure you have Go installed (version 1.16+)
 Run:
-Copygo install github.com/yourusername/chainsaw@latest
+```
+go install github.com/LouisWhit/chainsaw@latest
+```
 
 
 ## 🔧 Usage
+```bash
 bashCopychainsaw <project_folder> <html_id> <find_string> <replace_string>
+```
 Example:
-bashCopychainsaw ./my-project "header-nav" "Contact Us" "Get in Touch"
+```bash
+chainsaw ./my-project "header-nav" "Contact Us" "Get in Touch"
+```
 This command will:
 
 Search through all files in ./my-project
