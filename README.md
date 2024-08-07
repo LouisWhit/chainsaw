@@ -41,7 +41,7 @@ Chainsaw is a powerful command-line tool that allows you to make surgical change
 Run the following command in your terminal:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/LouisWhit/chainsaw/main/install_chainsaw.sh | bash
+curl -sSL https://raw.githubusercontent.com/LouisWhit/chainsaw/main/unix-install.sh | bash
 ```
 ### Other platforms
 
