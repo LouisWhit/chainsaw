@@ -1,20 +1,18 @@
 
 # 🪚 Chainsaw
 
-<p align="center">
-  
+
    ___ _           _                           
   / __\ |__   __ _(_)_ __  ___  __ ___      __ 
  / /  | '_ \ / _` | | '_ \/ __|/ _` \ \ /\ / / 
 / /___| | | | (_| | | | | \__ \ (_| |\ V  V /  
 \____/|_| |_|\__,_|_|_| |_|___/\__,_| \_/\_/   
-                                               
 
-</p>
 
 <p align="center">
   <strong>Slice through your HTML with precision!</strong>
 </p>
+
 
 <p align="center">
   <a href="#installation">Installation</a> •
@@ -46,3 +44,31 @@ Run the following command in your terminal:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/yourusername/chainsaw/main/install_chainsaw.sh | bash
+```
+### Other platforms
+
+Ensure you have Go installed (version 1.16+)
+Run:
+Copygo install github.com/yourusername/chainsaw@latest
+
+
+## 🔧 Usage
+bashCopychainsaw <project_folder> <html_id> <find_string> <replace_string>
+Example:
+bashCopychainsaw ./my-project "header-nav" "Contact Us" "Get in Touch"
+This command will:
+
+Search through all files in ./my-project
+Find elements with the ID header-nav
+Replace "Contact Us" with "Get in Touch" within those elements
+
+## 📊 Output
+Chainsaw provides real-time feedback in your terminal and generates a detailed log file in your home directory:
+Copy~/chainsaw_log-2024-08-07_14-30-45.txt
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📜 License
+This project is good luck licensed.
+
